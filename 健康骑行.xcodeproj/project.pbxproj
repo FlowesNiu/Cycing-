@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1D2CBB1D8172F000A2D0FE /* NCSexVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2CB91D8172F000A2D0FE /* NCSexVC.m */; };
+		CC1D2CBF1D81857500A2D0FE /* NCAgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2CBE1D81857500A2D0FE /* NCAgeVC.m */; };
+		CC32B5871D87F4120036DDA4 /* NCNew.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32B5851D87F4120036DDA4 /* NCNew.m */; };
+		CC32B5881D87F4120036DDA4 /* NCNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC32B5861D87F4120036DDA4 /* NCNew.xib */; };
+		CC32B58B1D87F51E0036DDA4 /* NCNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32B58A1D87F51E0036DDA4 /* NCNewModel.m */; };
+		CC32B58E1D882DA80036DDA4 /* NCCyclingData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32B58D1D882DA80036DDA4 /* NCCyclingData.m */; };
+		CC32B59E1D88D4320036DDA4 /* NCRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC32B59C1D88D4320036DDA4 /* NCRecordCell.m */; };
+		CC32B59F1D88D4320036DDA4 /* NCRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC32B59D1D88D4320036DDA4 /* NCRecordCell.xib */; };
+		CC3CC8551D6E7D1000DEA53E /* NCPreserveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CC8531D6E7D1000DEA53E /* NCPreserveVC.m */; };
+		CC3CC8561D6E7D1000DEA53E /* NCPreserveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3CC8541D6E7D1000DEA53E /* NCPreserveVC.xib */; };
+		CC59AD981D71800800B5756E /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC59AD961D71800800B5756E /* MOBFoundation.framework */; };
+		CC59AD991D71800800B5756E /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC59AD971D71800800B5756E /* SMS_SDK.framework */; };
+		CC6931E81D6AFDB4008ABC20 /* NCForgotPwd.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931DD1D6AFDB4008ABC20 /* NCForgotPwd.m */; };
+		CC6931E91D6AFDB4008ABC20 /* NCLoginQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931DF1D6AFDB4008ABC20 /* NCLoginQQ.m */; };
+		CC6931EA1D6AFDB4008ABC20 /* NCLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931E11D6AFDB4008ABC20 /* NCLoginVC.m */; };
+		CC6931EB1D6AFDB4008ABC20 /* NCLoginWX.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931E31D6AFDB4008ABC20 /* NCLoginWX.m */; };
+		CC6931EC1D6AFDB4008ABC20 /* NCRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931E51D6AFDB4008ABC20 /* NCRegister.m */; };
+		CC6931ED1D6AFDB4008ABC20 /* NCRegisterClauseui.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6931E71D6AFDB4008ABC20 /* NCRegisterClauseui.m */; };
+		CC7616121D7046E50003C90D /* NCCycling.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7616111D7046E50003C90D /* NCCycling.xib */; };
+		CC8BC7501D66F04E006DA069 /* NCLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8BC74F1D66F04E006DA069 /* NCLogin.m */; };
+		CCAD40D01D645E11008FE8C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD40CF1D645E11008FE8C1 /* main.m */; };
+		CCAD40D91D645E11008FE8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD40D71D645E11008FE8C1 /* Main.storyboard */; };
+		CCAD40DB1D645E11008FE8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD40DA1D645E11008FE8C1 /* Assets.xcassets */; };
+		CCAD40DE1D645E11008FE8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD40DC1D645E11008FE8C1 /* LaunchScreen.storyboard */; };
+		CCAD41121D645ED4008FE8C1 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCAD410C1D645ED4008FE8C1 /* AppDelegate.mm */; };
+		CCAD41131D645ED4008FE8C1 /* rootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD410F1D645ED4008FE8C1 /* rootViewController.m */; };
+		CCAD41161D645FB9008FE8C1 /* NCCycling.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD41151D645FB9008FE8C1 /* NCCycling.m */; };
+		CCAD41191D645FDF008FE8C1 /* NCEquipment.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD41181D645FDF008FE8C1 /* NCEquipment.m */; };
+		CCAD411C1D645FF5008FE8C1 /* NCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD411B1D645FF5008FE8C1 /* NCTool.m */; };
+		CCAD411F1D64600F008FE8C1 /* NCPersonager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD411E1D64600F008FE8C1 /* NCPersonager.m */; };
+		CCAD41261D6480CB008FE8C1 /* Guidevc.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD41251D6480CB008FE8C1 /* Guidevc.m */; };
+		CCB669C71D6DA5F1001C9E81 /* 服务条款.txt in Resources */ = {isa = PBXBuildFile; fileRef = CCB669C61D6DA5F1001C9E81 /* 服务条款.txt */; };
+		CCB669C91D6DB971001C9E81 /* NCChangeConditions.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCB669C81D6DB971001C9E81 /* NCChangeConditions.xib */; };
+		CCBF79251D80172300976948 /* NCAccountUserName.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF791B1D80172300976948 /* NCAccountUserName.m */; };
+		CCBF79261D80172300976948 /* NCAccountUserName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBF791C1D80172300976948 /* NCAccountUserName.storyboard */; };
+		CCBF79271D80172300976948 /* NCHeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF79201D80172300976948 /* NCHeightVC.m */; };
+		CCBF79291D80172300976948 /* NCWeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF79231D80172300976948 /* NCWeightVC.m */; };
+		CCBF8A601D6D9B6C00724962 /* NCChangeConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBF8A5F1D6D9B6C00724962 /* NCChangeConditions.m */; };
+		CCD74FCC1D8CEABA0067F799 /* NCToolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD74FCA1D8CEABA0067F799 /* NCToolCell.m */; };
+		CCD74FCD1D8CEABA0067F799 /* NCToolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD74FCB1D8CEABA0067F799 /* NCToolCell.xib */; };
+		CCD74FCF1D8CECE10067F799 /* NCEquipment.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD74FCE1D8CECE10067F799 /* NCEquipment.xib */; };
+		CCD74FD21D8CF4A10067F799 /* NCEquipmentOne.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD74FD11D8CF4A10067F799 /* NCEquipmentOne.m */; };
+		CCD74FD51D8CF69A0067F799 /* NCEquipmentTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD74FD41D8CF69A0067F799 /* NCEquipmentTwo.m */; };
+		CCD74FD81D8CF6C10067F799 /* NCEquipmentThere.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD74FD71D8CF6C10067F799 /* NCEquipmentThere.m */; };
+		CCD74FDB1D8CF6DB0067F799 /* NCEquipmentFour.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD74FDA1D8CF6DB0067F799 /* NCEquipmentFour.m */; };
+		CCF4FA451D7453FD009D9510 /* NCRecordedInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4FA431D7453FD009D9510 /* NCRecordedInformationVC.m */; };
+		CCF4FA461D7453FD009D9510 /* NCRecordedInformationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF4FA441D7453FD009D9510 /* NCRecordedInformationVC.xib */; };
+		CCF545081D730A3D00A62DE3 /* NCForgotPwd.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF545071D730A3D00A62DE3 /* NCForgotPwd.xib */; };
+		CCF62C4E1D7AF11B0016140C /* NCAnnotion.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF62C4D1D7AF11B0016140C /* NCAnnotion.m */; };
+		CFABF91D35F4716B9B64C09C /* libPods-健康骑行.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BB8DEC13E0622FADC1490E /* libPods-健康骑行.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EE2280A3EB5A3E0579F091A /* Pods-健康骑行.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-健康骑行.release.xcconfig"; path = "Pods/Target Support Files/Pods-健康骑行/Pods-健康骑行.release.xcconfig"; sourceTree = "<group>"; };
+		A3BB8DEC13E0622FADC1490E /* libPods-健康骑行.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-健康骑行.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1D2CB81D8172F000A2D0FE /* NCSexVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSexVC.h; sourceTree = "<group>"; };
+		CC1D2CB91D8172F000A2D0FE /* NCSexVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSexVC.m; sourceTree = "<group>"; };
+		CC1D2CBD1D81857500A2D0FE /* NCAgeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAgeVC.h; sourceTree = "<group>"; };
+		CC1D2CBE1D81857500A2D0FE /* NCAgeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAgeVC.m; sourceTree = "<group>"; };
+		CC32B5841D87F4120036DDA4 /* NCNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCNew.h; path = ../Controller/NCNew.h; sourceTree = "<group>"; };
+		CC32B5851D87F4120036DDA4 /* NCNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCNew.m; path = ../Controller/NCNew.m; sourceTree = "<group>"; };
+		CC32B5861D87F4120036DDA4 /* NCNew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NCNew.xib; path = ../Controller/NCNew.xib; sourceTree = "<group>"; };
+		CC32B5891D87F51E0036DDA4 /* NCNewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCNewModel.h; sourceTree = "<group>"; };
+		CC32B58A1D87F51E0036DDA4 /* NCNewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCNewModel.m; sourceTree = "<group>"; };
+		CC32B58C1D882DA80036DDA4 /* NCCyclingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCyclingData.h; sourceTree = "<group>"; };
+		CC32B58D1D882DA80036DDA4 /* NCCyclingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCyclingData.m; sourceTree = "<group>"; };
+		CC32B59B1D88D4320036DDA4 /* NCRecordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRecordCell.h; sourceTree = "<group>"; };
+		CC32B59C1D88D4320036DDA4 /* NCRecordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRecordCell.m; sourceTree = "<group>"; };
+		CC32B59D1D88D4320036DDA4 /* NCRecordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCRecordCell.xib; sourceTree = "<group>"; };
+		CC3CC8521D6E7D1000DEA53E /* NCPreserveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCPreserveVC.h; sourceTree = "<group>"; };
+		CC3CC8531D6E7D1000DEA53E /* NCPreserveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCPreserveVC.m; sourceTree = "<group>"; };
+		CC3CC8541D6E7D1000DEA53E /* NCPreserveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCPreserveVC.xib; sourceTree = "<group>"; };
+		CC59AD961D71800800B5756E /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		CC59AD971D71800800B5756E /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		CC6931DC1D6AFDB4008ABC20 /* NCForgotPwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCForgotPwd.h; sourceTree = "<group>"; };
+		CC6931DD1D6AFDB4008ABC20 /* NCForgotPwd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCForgotPwd.m; sourceTree = "<group>"; };
+		CC6931DE1D6AFDB4008ABC20 /* NCLoginQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLoginQQ.h; sourceTree = "<group>"; };
+		CC6931DF1D6AFDB4008ABC20 /* NCLoginQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLoginQQ.m; sourceTree = "<group>"; };
+		CC6931E01D6AFDB4008ABC20 /* NCLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLoginVC.h; sourceTree = "<group>"; };
+		CC6931E11D6AFDB4008ABC20 /* NCLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLoginVC.m; sourceTree = "<group>"; };
+		CC6931E21D6AFDB4008ABC20 /* NCLoginWX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLoginWX.h; sourceTree = "<group>"; };
+		CC6931E31D6AFDB4008ABC20 /* NCLoginWX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLoginWX.m; sourceTree = "<group>"; };
+		CC6931E41D6AFDB4008ABC20 /* NCRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRegister.h; sourceTree = "<group>"; };
+		CC6931E51D6AFDB4008ABC20 /* NCRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRegister.m; sourceTree = "<group>"; };
+		CC6931E61D6AFDB4008ABC20 /* NCRegisterClauseui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRegisterClauseui.h; sourceTree = "<group>"; };
+		CC6931E71D6AFDB4008ABC20 /* NCRegisterClauseui.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRegisterClauseui.m; sourceTree = "<group>"; };
+		CC7616111D7046E50003C90D /* NCCycling.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCCycling.xib; sourceTree = "<group>"; };
+		CC8BC74E1D66F04E006DA069 /* NCLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLogin.h; sourceTree = "<group>"; };
+		CC8BC74F1D66F04E006DA069 /* NCLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLogin.m; sourceTree = "<group>"; usesTabs = 0; };
+		CCAD40CB1D645E11008FE8C1 /* 健康骑行.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "健康骑行.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAD40CF1D645E11008FE8C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCAD40D81D645E11008FE8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCAD40DA1D645E11008FE8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		CCAD40DD1D645E11008FE8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCAD40DF1D645E11008FE8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		CCAD410B1D645ED4008FE8C1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCAD410C1D645ED4008FE8C1 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		CCAD410E1D645ED4008FE8C1 /* rootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rootViewController.h; sourceTree = "<group>"; };
+		CCAD410F1D645ED4008FE8C1 /* rootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rootViewController.m; sourceTree = "<group>"; };
+		CCAD41141D645FB9008FE8C1 /* NCCycling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCCycling.h; sourceTree = "<group>"; };
+		CCAD41151D645FB9008FE8C1 /* NCCycling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCCycling.m; sourceTree = "<group>"; };
+		CCAD41171D645FDF008FE8C1 /* NCEquipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEquipment.h; sourceTree = "<group>"; };
+		CCAD41181D645FDF008FE8C1 /* NCEquipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEquipment.m; sourceTree = "<group>"; };
+		CCAD411A1D645FF5008FE8C1 /* NCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTool.h; sourceTree = "<group>"; };
+		CCAD411B1D645FF5008FE8C1 /* NCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCTool.m; sourceTree = "<group>"; };
+		CCAD411D1D64600F008FE8C1 /* NCPersonager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCPersonager.h; sourceTree = "<group>"; };
+		CCAD411E1D64600F008FE8C1 /* NCPersonager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCPersonager.m; sourceTree = "<group>"; };
+		CCAD41241D6480CB008FE8C1 /* Guidevc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guidevc.h; sourceTree = "<group>"; };
+		CCAD41251D6480CB008FE8C1 /* Guidevc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guidevc.m; sourceTree = "<group>"; };
+		CCB669C61D6DA5F1001C9E81 /* 服务条款.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "服务条款.txt"; sourceTree = "<group>"; };
+		CCB669C81D6DB971001C9E81 /* NCChangeConditions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCChangeConditions.xib; sourceTree = "<group>"; };
+		CCBF791A1D80172300976948 /* NCAccountUserName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAccountUserName.h; sourceTree = "<group>"; };
+		CCBF791B1D80172300976948 /* NCAccountUserName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAccountUserName.m; sourceTree = "<group>"; };
+		CCBF791C1D80172300976948 /* NCAccountUserName.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NCAccountUserName.storyboard; sourceTree = "<group>"; };
+		CCBF791F1D80172300976948 /* NCHeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCHeightVC.h; sourceTree = "<group>"; };
+		CCBF79201D80172300976948 /* NCHeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCHeightVC.m; sourceTree = "<group>"; };
+		CCBF79221D80172300976948 /* NCWeightVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCWeightVC.h; sourceTree = "<group>"; };
+		CCBF79231D80172300976948 /* NCWeightVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCWeightVC.m; sourceTree = "<group>"; };
+		CCBF8A5E1D6D9B6C00724962 /* NCChangeConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCChangeConditions.h; sourceTree = "<group>"; };
+		CCBF8A5F1D6D9B6C00724962 /* NCChangeConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCChangeConditions.m; sourceTree = "<group>"; };
+		CCD74FC91D8CEABA0067F799 /* NCToolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCToolCell.h; sourceTree = "<group>"; };
+		CCD74FCA1D8CEABA0067F799 /* NCToolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCToolCell.m; sourceTree = "<group>"; };
+		CCD74FCB1D8CEABA0067F799 /* NCToolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCToolCell.xib; sourceTree = "<group>"; };
+		CCD74FCE1D8CECE10067F799 /* NCEquipment.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCEquipment.xib; sourceTree = "<group>"; };
+		CCD74FD01D8CF4A10067F799 /* NCEquipmentOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEquipmentOne.h; sourceTree = "<group>"; };
+		CCD74FD11D8CF4A10067F799 /* NCEquipmentOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEquipmentOne.m; sourceTree = "<group>"; };
+		CCD74FD31D8CF69A0067F799 /* NCEquipmentTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEquipmentTwo.h; sourceTree = "<group>"; };
+		CCD74FD41D8CF69A0067F799 /* NCEquipmentTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEquipmentTwo.m; sourceTree = "<group>"; };
+		CCD74FD61D8CF6C10067F799 /* NCEquipmentThere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEquipmentThere.h; sourceTree = "<group>"; };
+		CCD74FD71D8CF6C10067F799 /* NCEquipmentThere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEquipmentThere.m; sourceTree = "<group>"; };
+		CCD74FD91D8CF6DB0067F799 /* NCEquipmentFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCEquipmentFour.h; sourceTree = "<group>"; };
+		CCD74FDA1D8CF6DB0067F799 /* NCEquipmentFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCEquipmentFour.m; sourceTree = "<group>"; };
+		CCF4FA421D7453FD009D9510 /* NCRecordedInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRecordedInformationVC.h; sourceTree = "<group>"; };
+		CCF4FA431D7453FD009D9510 /* NCRecordedInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRecordedInformationVC.m; sourceTree = "<group>"; };
+		CCF4FA441D7453FD009D9510 /* NCRecordedInformationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCRecordedInformationVC.xib; sourceTree = "<group>"; };
+		CCF545071D730A3D00A62DE3 /* NCForgotPwd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCForgotPwd.xib; sourceTree = "<group>"; };
+		CCF62C4C1D7AF11B0016140C /* NCAnnotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAnnotion.h; sourceTree = "<group>"; };
+		CCF62C4D1D7AF11B0016140C /* NCAnnotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAnnotion.m; sourceTree = "<group>"; };
+		E22E237A5533650CAD77778A /* Pods-健康骑行.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-健康骑行.debug.xcconfig"; path = "Pods/Target Support Files/Pods-健康骑行/Pods-健康骑行.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAD40C81D645E11008FE8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC59AD991D71800800B5756E /* SMS_SDK.framework in Frameworks */,
+				CC59AD981D71800800B5756E /* MOBFoundation.framework in Frameworks */,
+				CFABF91D35F4716B9B64C09C /* libPods-健康骑行.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4BC5712068A36A66A8A4C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22E237A5533650CAD77778A /* Pods-健康骑行.debug.xcconfig */,
+				7EE2280A3EB5A3E0579F091A /* Pods-健康骑行.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EBFFB492115064A4BCEB516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3BB8DEC13E0622FADC1490E /* libPods-健康骑行.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC59AD941D717FEA00B5756E /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CC59AD951D71800800B5756E /* SMS_SDK */,
+			);
+			name = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		CC59AD951D71800800B5756E /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CC59AD961D71800800B5756E /* MOBFoundation.framework */,
+				CC59AD971D71800800B5756E /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		CC6931DB1D6AFDB4008ABC20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC6931DC1D6AFDB4008ABC20 /* NCForgotPwd.h */,
+				CC6931DD1D6AFDB4008ABC20 /* NCForgotPwd.m */,
+				CCF545071D730A3D00A62DE3 /* NCForgotPwd.xib */,
+				CC6931DE1D6AFDB4008ABC20 /* NCLoginQQ.h */,
+				CC6931DF1D6AFDB4008ABC20 /* NCLoginQQ.m */,
+				CC6931E01D6AFDB4008ABC20 /* NCLoginVC.h */,
+				CC6931E11D6AFDB4008ABC20 /* NCLoginVC.m */,
+				CC6931E21D6AFDB4008ABC20 /* NCLoginWX.h */,
+				CC6931E31D6AFDB4008ABC20 /* NCLoginWX.m */,
+				CC6931E41D6AFDB4008ABC20 /* NCRegister.h */,
+				CC6931E51D6AFDB4008ABC20 /* NCRegister.m */,
+				CCBF8A5E1D6D9B6C00724962 /* NCChangeConditions.h */,
+				CCBF8A5F1D6D9B6C00724962 /* NCChangeConditions.m */,
+				CCB669C81D6DB971001C9E81 /* NCChangeConditions.xib */,
+				CC3CC8521D6E7D1000DEA53E /* NCPreserveVC.h */,
+				CC3CC8531D6E7D1000DEA53E /* NCPreserveVC.m */,
+				CC3CC8541D6E7D1000DEA53E /* NCPreserveVC.xib */,
+				CC6931E61D6AFDB4008ABC20 /* NCRegisterClauseui.h */,
+				CC6931E71D6AFDB4008ABC20 /* NCRegisterClauseui.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40C21D645E11008FE8C1 = {
+			isa = PBXGroup;
+			children = (
+				CCAD40CD1D645E11008FE8C1 /* 健康骑行 */,
+				CCAD40CC1D645E11008FE8C1 /* Products */,
+				0C4BC5712068A36A66A8A4C4 /* Pods */,
+				CC59AD941D717FEA00B5756E /* SMS_SDK */,
+				0EBFFB492115064A4BCEB516 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAD40CC1D645E11008FE8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40CB1D645E11008FE8C1 /* 健康骑行.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAD40CD1D645E11008FE8C1 /* 健康骑行 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD410A1D645ED4008FE8C1 /* Main */,
+				CCAD41231D6480B0008FE8C1 /* Guide */,
+				CCAD40F81D645E6F008FE8C1 /* 骑行 */,
+				CCAD40F21D645E6F008FE8C1 /* 工具 */,
+				CCAD40FC1D645E6F008FE8C1 /* 设备 */,
+				CCAD41001D645E6F008FE8C1 /* 我的 */,
+				CCAD40E51D645E6F008FE8C1 /* 备用 */,
+				CCAD41041D645E6F008FE8C1 /* 资源 */,
+				CCAD40CE1D645E11008FE8C1 /* Supporting Files */,
+			);
+			path = "健康骑行";
+			sourceTree = "<group>";
+		};
+		CCAD40CE1D645E11008FE8C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40CF1D645E11008FE8C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCAD40E51D645E6F008FE8C1 /* 备用 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40E61D645E6F008FE8C1 /* 发现 */,
+				CCAD40EA1D645E6F008FE8C1 /* 团队 */,
+				CCAD40EE1D645E6F008FE8C1 /* 记录 */,
+			);
+			path = "备用";
+			sourceTree = "<group>";
+		};
+		CCAD40E61D645E6F008FE8C1 /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40E71D645E6F008FE8C1 /* Controller */,
+				CCAD40E81D645E6F008FE8C1 /* Model */,
+				CCAD40E91D645E6F008FE8C1 /* View */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		CCAD40E71D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40E81D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40E91D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40EA1D645E6F008FE8C1 /* 团队 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40EB1D645E6F008FE8C1 /* Controller */,
+				CCAD40EC1D645E6F008FE8C1 /* Model */,
+				CCAD40ED1D645E6F008FE8C1 /* View */,
+			);
+			path = "团队";
+			sourceTree = "<group>";
+		};
+		CCAD40EB1D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40EC1D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40ED1D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40EE1D645E6F008FE8C1 /* 记录 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40EF1D645E6F008FE8C1 /* Controller */,
+				CCAD40F01D645E6F008FE8C1 /* Model */,
+				CCAD40F11D645E6F008FE8C1 /* View */,
+			);
+			path = "记录";
+			sourceTree = "<group>";
+		};
+		CCAD40EF1D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40F01D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40F11D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40F21D645E6F008FE8C1 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40F31D645E6F008FE8C1 /* Controller */,
+				CCAD40F61D645E6F008FE8C1 /* Model */,
+				CCAD40F71D645E6F008FE8C1 /* View */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		CCAD40F31D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD411A1D645FF5008FE8C1 /* NCTool.h */,
+				CCAD411B1D645FF5008FE8C1 /* NCTool.m */,
+				CCD74FC91D8CEABA0067F799 /* NCToolCell.h */,
+				CCD74FCA1D8CEABA0067F799 /* NCToolCell.m */,
+				CCD74FCB1D8CEABA0067F799 /* NCToolCell.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40F61D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC32B5891D87F51E0036DDA4 /* NCNewModel.h */,
+				CC32B58A1D87F51E0036DDA4 /* NCNewModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40F71D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC32B5841D87F4120036DDA4 /* NCNew.h */,
+				CC32B5851D87F4120036DDA4 /* NCNew.m */,
+				CC32B5861D87F4120036DDA4 /* NCNew.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40F81D645E6F008FE8C1 /* 骑行 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40F91D645E6F008FE8C1 /* Controller */,
+				CCAD40FA1D645E6F008FE8C1 /* Model */,
+				CCAD40FB1D645E6F008FE8C1 /* View */,
+			);
+			path = "骑行";
+			sourceTree = "<group>";
+		};
+		CCAD40F91D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD41141D645FB9008FE8C1 /* NCCycling.h */,
+				CCAD41151D645FB9008FE8C1 /* NCCycling.m */,
+				CCF62C4C1D7AF11B0016140C /* NCAnnotion.h */,
+				CCF62C4D1D7AF11B0016140C /* NCAnnotion.m */,
+				CC7616111D7046E50003C90D /* NCCycling.xib */,
+				CCF4FA421D7453FD009D9510 /* NCRecordedInformationVC.h */,
+				CCF4FA431D7453FD009D9510 /* NCRecordedInformationVC.m */,
+				CCF4FA441D7453FD009D9510 /* NCRecordedInformationVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40FA1D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40FB1D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC32B58C1D882DA80036DDA4 /* NCCyclingData.h */,
+				CC32B58D1D882DA80036DDA4 /* NCCyclingData.m */,
+				CC32B59B1D88D4320036DDA4 /* NCRecordCell.h */,
+				CC32B59C1D88D4320036DDA4 /* NCRecordCell.m */,
+				CC32B59D1D88D4320036DDA4 /* NCRecordCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD40FC1D645E6F008FE8C1 /* 设备 */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD40FD1D645E6F008FE8C1 /* Controller */,
+				CCAD40FE1D645E6F008FE8C1 /* Model */,
+				CCAD40FF1D645E6F008FE8C1 /* View */,
+			);
+			path = "设备";
+			sourceTree = "<group>";
+		};
+		CCAD40FD1D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD41171D645FDF008FE8C1 /* NCEquipment.h */,
+				CCAD41181D645FDF008FE8C1 /* NCEquipment.m */,
+				CCD74FCE1D8CECE10067F799 /* NCEquipment.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD40FE1D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD40FF1D645E6F008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCD74FD01D8CF4A10067F799 /* NCEquipmentOne.h */,
+				CCD74FD11D8CF4A10067F799 /* NCEquipmentOne.m */,
+				CCD74FD31D8CF69A0067F799 /* NCEquipmentTwo.h */,
+				CCD74FD41D8CF69A0067F799 /* NCEquipmentTwo.m */,
+				CCD74FD61D8CF6C10067F799 /* NCEquipmentThere.h */,
+				CCD74FD71D8CF6C10067F799 /* NCEquipmentThere.m */,
+				CCD74FD91D8CF6DB0067F799 /* NCEquipmentFour.h */,
+				CCD74FDA1D8CF6DB0067F799 /* NCEquipmentFour.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD41001D645E6F008FE8C1 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF79181D80172300976948 /* 登陆之后的控制器 */,
+				CCAD41011D645E6F008FE8C1 /* Controller */,
+				CCAD41021D645E6F008FE8C1 /* Model */,
+				CC6931DB1D6AFDB4008ABC20 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		CCAD41011D645E6F008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD411D1D64600F008FE8C1 /* NCPersonager.h */,
+				CCAD411E1D64600F008FE8C1 /* NCPersonager.m */,
+				CC8BC74E1D66F04E006DA069 /* NCLogin.h */,
+				CC8BC74F1D66F04E006DA069 /* NCLogin.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD41021D645E6F008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD41041D645E6F008FE8C1 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+				CCB669C61D6DA5F1001C9E81 /* 服务条款.txt */,
+				CCAD40D71D645E11008FE8C1 /* Main.storyboard */,
+				CCAD40DA1D645E11008FE8C1 /* Assets.xcassets */,
+				CCAD40DC1D645E11008FE8C1 /* LaunchScreen.storyboard */,
+				CCAD40DF1D645E11008FE8C1 /* Info.plist */,
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		CCAD410A1D645ED4008FE8C1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD410B1D645ED4008FE8C1 /* AppDelegate.h */,
+				CCAD410C1D645ED4008FE8C1 /* AppDelegate.mm */,
+				CCAD410D1D645ED4008FE8C1 /* Controller */,
+				CCAD41101D645ED4008FE8C1 /* Model */,
+				CCAD41111D645ED4008FE8C1 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CCAD410D1D645ED4008FE8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD410E1D645ED4008FE8C1 /* rootViewController.h */,
+				CCAD410F1D645ED4008FE8C1 /* rootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD41101D645ED4008FE8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCAD41111D645ED4008FE8C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCAD41231D6480B0008FE8C1 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD41241D6480CB008FE8C1 /* Guidevc.h */,
+				CCAD41251D6480CB008FE8C1 /* Guidevc.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		CCBF79181D80172300976948 /* 登陆之后的控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF79191D80172300976948 /* Controller */,
+				CCBF791D1D80172300976948 /* Model */,
+				CCBF791E1D80172300976948 /* View */,
+			);
+			path = "登陆之后的控制器";
+			sourceTree = "<group>";
+		};
+		CCBF79191D80172300976948 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCBF791A1D80172300976948 /* NCAccountUserName.h */,
+				CCBF791B1D80172300976948 /* NCAccountUserName.m */,
+				CCBF791C1D80172300976948 /* NCAccountUserName.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCBF791D1D80172300976948 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCBF791E1D80172300976948 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D2CB81D8172F000A2D0FE /* NCSexVC.h */,
+				CC1D2CB91D8172F000A2D0FE /* NCSexVC.m */,
+				CC1D2CBD1D81857500A2D0FE /* NCAgeVC.h */,
+				CC1D2CBE1D81857500A2D0FE /* NCAgeVC.m */,
+				CCBF791F1D80172300976948 /* NCHeightVC.h */,
+				CCBF79201D80172300976948 /* NCHeightVC.m */,
+				CCBF79221D80172300976948 /* NCWeightVC.h */,
+				CCBF79231D80172300976948 /* NCWeightVC.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAD40CA1D645E11008FE8C1 /* 健康骑行 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAD40E21D645E11008FE8C1 /* Build configuration list for PBXNativeTarget "健康骑行" */;
+			buildPhases = (
+				26AF46541C8677708FBBE4BE /* [CP] Check Pods Manifest.lock */,
+				CCAD40C71D645E11008FE8C1 /* Sources */,
+				CCAD40C81D645E11008FE8C1 /* Frameworks */,
+				CCAD40C91D645E11008FE8C1 /* Resources */,
+				24DD0107DB003DB880368803 /* [CP] Embed Pods Frameworks */,
+				9D91D6875E965AEC9B27BB68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "健康骑行";
+			productName = "健康骑行";
+			productReference = CCAD40CB1D645E11008FE8C1 /* 健康骑行.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAD40C31D645E11008FE8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "牛广道";
+				TargetAttributes = {
+					CCAD40CA1D645E11008FE8C1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 73W72LVS68;
+					};
+				};
+			};
+			buildConfigurationList = CCAD40C61D645E11008FE8C1 /* Build configuration list for PBXProject "健康骑行" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAD40C21D645E11008FE8C1;
+			productRefGroup = CCAD40CC1D645E11008FE8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAD40CA1D645E11008FE8C1 /* 健康骑行 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAD40C91D645E11008FE8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3CC8561D6E7D1000DEA53E /* NCPreserveVC.xib in Resources */,
+				CC32B59F1D88D4320036DDA4 /* NCRecordCell.xib in Resources */,
+				CCBF79261D80172300976948 /* NCAccountUserName.storyboard in Resources */,
+				CCAD40DE1D645E11008FE8C1 /* LaunchScreen.storyboard in Resources */,
+				CCF545081D730A3D00A62DE3 /* NCForgotPwd.xib in Resources */,
+				CCB669C91D6DB971001C9E81 /* NCChangeConditions.xib in Resources */,
+				CC7616121D7046E50003C90D /* NCCycling.xib in Resources */,
+				CC32B5881D87F4120036DDA4 /* NCNew.xib in Resources */,
+				CCF4FA461D7453FD009D9510 /* NCRecordedInformationVC.xib in Resources */,
+				CCD74FCF1D8CECE10067F799 /* NCEquipment.xib in Resources */,
+				CCAD40DB1D645E11008FE8C1 /* Assets.xcassets in Resources */,
+				CCAD40D91D645E11008FE8C1 /* Main.storyboard in Resources */,
+				CCB669C71D6DA5F1001C9E81 /* 服务条款.txt in Resources */,
+				CCD74FCD1D8CEABA0067F799 /* NCToolCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DD0107DB003DB880368803 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-健康骑行/Pods-健康骑行-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26AF46541C8677708FBBE4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D91D6875E965AEC9B27BB68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-健康骑行/Pods-健康骑行-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAD40C71D645E11008FE8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD74FD21D8CF4A10067F799 /* NCEquipmentOne.m in Sources */,
+				CC6931EB1D6AFDB4008ABC20 /* NCLoginWX.m in Sources */,
+				CCAD411F1D64600F008FE8C1 /* NCPersonager.m in Sources */,
+				CC6931E81D6AFDB4008ABC20 /* NCForgotPwd.m in Sources */,
+				CCBF79251D80172300976948 /* NCAccountUserName.m in Sources */,
+				CCD74FCC1D8CEABA0067F799 /* NCToolCell.m in Sources */,
+				CCBF79291D80172300976948 /* NCWeightVC.m in Sources */,
+				CC1D2CBF1D81857500A2D0FE /* NCAgeVC.m in Sources */,
+				CCD74FDB1D8CF6DB0067F799 /* NCEquipmentFour.m in Sources */,
+				CC8BC7501D66F04E006DA069 /* NCLogin.m in Sources */,
+				CCAD41261D6480CB008FE8C1 /* Guidevc.m in Sources */,
+				CCAD411C1D645FF5008FE8C1 /* NCTool.m in Sources */,
+				CCBF8A601D6D9B6C00724962 /* NCChangeConditions.m in Sources */,
+				CC6931ED1D6AFDB4008ABC20 /* NCRegisterClauseui.m in Sources */,
+				CCAD41191D645FDF008FE8C1 /* NCEquipment.m in Sources */,
+				CCD74FD81D8CF6C10067F799 /* NCEquipmentThere.m in Sources */,
+				CC6931E91D6AFDB4008ABC20 /* NCLoginQQ.m in Sources */,
+				CC32B58B1D87F51E0036DDA4 /* NCNewModel.m in Sources */,
+				CCAD40D01D645E11008FE8C1 /* main.m in Sources */,
+				CCAD41131D645ED4008FE8C1 /* rootViewController.m in Sources */,
+				CC32B5871D87F4120036DDA4 /* NCNew.m in Sources */,
+				CC1D2CBB1D8172F000A2D0FE /* NCSexVC.m in Sources */,
+				CCD74FD51D8CF69A0067F799 /* NCEquipmentTwo.m in Sources */,
+				CC6931EA1D6AFDB4008ABC20 /* NCLoginVC.m in Sources */,
+				CC6931EC1D6AFDB4008ABC20 /* NCRegister.m in Sources */,
+				CCAD41121D645ED4008FE8C1 /* AppDelegate.mm in Sources */,
+				CC32B59E1D88D4320036DDA4 /* NCRecordCell.m in Sources */,
+				CCBF79271D80172300976948 /* NCHeightVC.m in Sources */,
+				CCF4FA451D7453FD009D9510 /* NCRecordedInformationVC.m in Sources */,
+				CCAD41161D645FB9008FE8C1 /* NCCycling.m in Sources */,
+				CC32B58E1D882DA80036DDA4 /* NCCyclingData.m in Sources */,
+				CCF62C4E1D7AF11B0016140C /* NCAnnotion.m in Sources */,
+				CC3CC8551D6E7D1000DEA53E /* NCPreserveVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCAD40D71D645E11008FE8C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAD40D81D645E11008FE8C1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CCAD40DC1D645E11008FE8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAD40DD1D645E11008FE8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAD40E01D645E11008FE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCAD40E11D645E11008FE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAD40E31D645E11008FE8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22E237A5533650CAD77778A /* Pods-健康骑行.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				INFOPLIST_FILE = "健康骑行/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngdngdngd7758521;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCAD40E41D645E11008FE8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE2280A3EB5A3E0579F091A /* Pods-健康骑行.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+				);
+				INFOPLIST_FILE = "健康骑行/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngdngdngd7758521;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAD40C61D645E11008FE8C1 /* Build configuration list for PBXProject "健康骑行" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAD40E01D645E11008FE8C1 /* Debug */,
+				CCAD40E11D645E11008FE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAD40E21D645E11008FE8C1 /* Build configuration list for PBXNativeTarget "健康骑行" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAD40E31D645E11008FE8C1 /* Debug */,
+				CCAD40E41D645E11008FE8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAD40C31D645E11008FE8C1 /* Project object */;
+}
